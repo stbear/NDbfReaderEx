@@ -426,7 +426,7 @@ namespace NDbfReaderEx
           return new MemoColumn(columnName, columnType, columnOffset, columnSize, columnDec, encoding);
 
         case NativeColumnType.Date:
-          return new DateTimeColumn(columnName, columnType, columnOffset);
+          return new DateColumn(columnName, columnType, columnOffset);
 
         case NativeColumnType.Long:
           Debug.Assert(columnSize == 4);

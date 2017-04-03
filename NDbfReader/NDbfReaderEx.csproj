@@ -59,6 +59,7 @@
     <Compile Include="ClipperReader.cs" />
     <Compile Include="ColumnDefinitionForCreateTable.cs" />
     <Compile Include="CreatePocoClass.cs" />
+    <Compile Include="DateTimeColumn.cs" />
     <Compile Include="DbfTableEnumerator.cs" />
     <Compile Include="DbfTableParameters.cs" />
     <Compile Include="DbfTablePoco.cs" />
@@ -70,7 +71,7 @@
     <Compile Include="IndexFileNTX.cs" />
     <Compile Include="IndexPageCache.cs" />
     <Compile Include="MemoColumn.cs" />
-    <Compile Include="DateTimeColumn.cs" />
+    <Compile Include="DateColumn.cs" />
     <Compile Include="Column.cs" />
     <Compile Include="DbfRow.cs" />
     <Compile Include="DbfTable_2.cs" />

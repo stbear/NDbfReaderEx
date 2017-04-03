@@ -46,4 +46,7 @@ Added with 1.4.1 version: double dbf field (type byte is 'O' in dbf header)
   WARNING! Because the value hasn't a stabderd IEEE double bit structure only positive value is valid!
   [If anyone can correct this code/situation please help me!] 
 
+Added with fork by Stanislav Bakhuta:
+DateTime data type 0x58 whuck ignores ?=null rule
+
 ***************************************************************************************************
